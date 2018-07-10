@@ -1,6 +1,6 @@
 # C++ Messing Around
 
-##Purpose
+## Purpose
  The purpose of this project really is just to mess around with C++ for one of my classes at WGU. I am using Visual Studio Code to write the code and the clang plugin (with make) to compile and package it.
 
  ### To Run Whats already there
