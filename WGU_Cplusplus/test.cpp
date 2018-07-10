@@ -9,6 +9,7 @@ int main(){
     string justTesting = "Hello";
     int someNum = 0;
     string myName = "";
+    bool muffinAnswer;
     
     /*** input and output var ***/
     cout << "Welcome, please tell me your name: ";
@@ -27,6 +28,20 @@ int main(){
         cout << "Your number is between 0 and 10" << endl;
     } else {
         cout << "Your number was either greater than 10, or less than 0" << endl;
+    }
+
+    if(myName == "Error"){
+        cout << "Wait...... Your name is Error?" << endl;
+        cout << "Do you know the muffin man? (Enter 1 for Yes or 0 for No) ";
+        cin >> muffinAnswer;
+
+        if(muffinAnswer){
+            cout << endl;
+            cout << "I knew you knew him!! Well i'll be.." << endl;
+        } else if(!muffinAnswer){
+            cout << endl;
+            cout << "Oh... well... he lives on Dreary Ln." << endl;
+        }
     }
 
     return 0;
